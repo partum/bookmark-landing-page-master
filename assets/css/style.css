@@ -11838,4 +11838,32 @@ nav {
   border-color: #fa5757;
 }
 
+#hero {
+  max-width: 1234px;
+}
+#hero .pr-3 {
+  padding-right: 100px;
+}
+
+.decorative {
+  height: 354px;
+  width: 43%;
+  background-color: #5368df;
+  display: inline-block;
+  position: absolute;
+  bottom: 186px;
+  right: 0;
+  z-index: -1;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.btn {
+  box-shadow: 0px 5px 5px #5368df54;
+}
+
+.btn-secondary {
+  margin-left: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */

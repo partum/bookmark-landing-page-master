@@ -1,29 +1,66 @@
 @use 'custom';
+$soft-blue: hsl(231, 69%, 60%);
 
 // nav section
-nav{
+nav {
     max-width: 1234px;
     padding: 20px;
-    margin:auto;
+    margin: auto;
 }
-.nav-item{
+
+.nav-item {
     letter-spacing: 1px;
-    .btn-info{
+
+    .btn-info {
         margin: 0 2rem;
     }
 }
-.nav-link{
+
+.nav-link {
     text-transform: uppercase;
     color: hsl(229, 31%, 21%);
-    &:hover{
+
+    &:hover {
         color: hsl(0, 94%, 66%);
     }
 }
-.btn-info{
+
+.btn-info {
     color: white;
-    &:hover{
+
+    &:hover {
         background-color: white;
         color: hsl(0, 94%, 66%);
         border-color: hsl(0, 94%, 66%);
     }
+}
+
+//hero section
+#hero {
+    max-width: 1234px;
+
+    .pr-3 {
+        padding-right: 100px;
+    }
+}
+
+.decorative {
+    height: 354px;
+    width: 43%;
+    background-color: $soft-blue;
+    display: inline-block;
+    position: absolute;
+    bottom: 186px;
+    right: 0;
+    z-index: -1;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.btn {
+    box-shadow: 0px 5px 5px #5368df54;
+}
+
+.btn-secondary {
+    margin-left: 15px;
 }
