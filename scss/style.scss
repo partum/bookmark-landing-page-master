@@ -1,1 +1,29 @@
 @use 'custom';
+
+// nav section
+nav{
+    max-width: 1234px;
+    padding: 20px;
+    margin:auto;
+}
+.nav-item{
+    letter-spacing: 1px;
+    .btn-info{
+        margin: 0 2rem;
+    }
+}
+.nav-link{
+    text-transform: uppercase;
+    color: hsl(229, 31%, 21%);
+    &:hover{
+        color: hsl(0, 94%, 66%);
+    }
+}
+.btn-info{
+    color: white;
+    &:hover{
+        background-color: white;
+        color: hsl(0, 94%, 66%);
+        border-color: hsl(0, 94%, 66%);
+    }
+}
