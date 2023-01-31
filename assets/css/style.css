@@ -11866,4 +11866,55 @@ nav {
   margin-left: 15px;
 }
 
+@media (max-width: 767px) {
+  #hero {
+    flex-direction: column-reverse;
+    margin-top: 100px;
+  }
+  #hero img {
+    width: 100%;
+  }
+  #hero h1 {
+    margin-top: 60px;
+    text-align: center;
+  }
+  #hero .text {
+    padding: 0 20px;
+  }
+  #hero .decorative {
+    bottom: 396px;
+    height: 263px;
+    width: 81%;
+  }
+  #hero .container {
+    display: flex;
+    justify-content: center;
+  }
+}
+.sections {
+  text-align: center;
+  max-width: 1234px;
+}
+
+.features .text {
+  max-width: 500px;
+}
+.features .nav-link {
+  text-transform: none;
+  color: gray;
+}
+.features .nav-tabs .nav-link.active,
+.features .nav-tabs .nav-item.show .nav-link {
+  border: none;
+  border-bottom: #fa5757 3px solid;
+}
+.features .nav-tabs .nav-link.active {
+  color: #252b46;
+}
+.features .nav-tabs .nav-link:hover,
+.features .nav-tabs .nav-link:focus {
+  color: #fa5757;
+  border: none;
+}
+
 /*# sourceMappingURL=style.css.map */

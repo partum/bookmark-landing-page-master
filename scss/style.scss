@@ -64,3 +64,72 @@ nav {
 .btn-secondary {
     margin-left: 15px;
 }
+
+@media(max-width: 767px) {
+    #hero {
+        flex-direction: column-reverse;
+        margin-top: 100px;
+
+        img {
+            width: 100%;
+        }
+
+        h1 {
+            margin-top: 60px;
+            text-align: center;
+        }
+
+        .text {
+            padding: 0 20px;
+        }
+
+        .decorative {
+            bottom: 396px;
+            height: 263px;
+            width: 81%;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+//sections universal
+.sections {
+    text-align: center;
+    max-width: 1234px;
+}
+
+//features section
+.features {
+    .text {
+        max-width: 500px;
+    }
+
+    .nav-link {
+        text-transform: none;
+        color: gray;
+    }
+
+    .nav-tabs {
+
+        .nav-link.active,
+        .nav-item.show .nav-link {
+            border: none;
+            border-bottom: hsl(0, 94%, 66%) 3px solid;
+        }
+
+        .nav-link.active {
+            color: hsl(229, 31%, 21%);
+        }
+
+        .nav-link:hover,
+        .nav-link:focus {
+            color: hsl(0, 94%, 66%);
+            border: none;
+        }
+    }
+
+}

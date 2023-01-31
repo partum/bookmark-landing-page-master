@@ -7,6 +7,8 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
 
   <title>Frontend Mentor | Bookmark landing page</title>
 
@@ -57,48 +59,65 @@
   </nav>
   <!-- hero section -->
   <section id="hero" class="d-flex mt-12 mx-auto">
-    <div class="pr-3">
+    <div class="pr-3 text">
       <h1>A Simple Bookmark Manager</h1>
       <p>A clean and simple interface to organize your favourite websites. Open a new
         browser tab and see your sites load instantly. Try it for free.</p>
-      <button type="button" class="btn btn-primary">Get it on Chrome</button>
-      <button type="button" class="btn btn-secondary">Get it on Firefox</button>
+      <div class="container">
+        <button type="button" class="btn btn-primary">Get it on Chrome</button>
+        <button type="button" class="btn btn-secondary">Get it on Firefox</button>
+      </div>
     </div>
     <div><img src="./images/illustration-hero.svg" alt=" ">
       <span class="decorative"></span>
     </div>
   </section>
+  <section class="mt-12 mx-auto sections features">
+    <h2>Features</h2>
+    <p class="mx-auto text">Our aim is to make it quick and easy for you to access your favourite websites.
+      Your bookmarks sync between your devices so you can access them on the go.</p>
+    <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+          role="tab" aria-controls="home" aria-selected="true">Simple Bookmarking</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+          role="tab" aria-controls="profile" aria-selected="false">Speedy Searching</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
+          role="tab" aria-controls="contact" aria-selected="false">Easy Sharing</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <img src="./images/illustration-hero.svg" alt=" ">
+        <div>
+          <h3>Bookmark in one click</h3>
+          <p>Organize your bookmarks however you like. Our simple drag-and-drop interface
+            gives you complete control over how you manage your favourite sites.</p>
+          <button type="button" class="btn btn-primary">More Info</button>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <h3>Intelligent search</h3>
+        <p>Our powerful search feature will help you find saved sites in no time at all.
+          No need to trawl through all of your bookmarks.</p>
+        <button type="button" class="btn btn-primary">More Info</button>
+
+      </div>
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        <h3>Share your bookmarks</h3>
+        <p>Easily share your bookmarks and collections with others. Create a shareable
+          link that you can send at the click of a button.</p>
+        <button type="button" class="btn btn-primary">More Info</button>
+      </div>
+    </div>
+
+  </section>
 
 
-  Features
-
-  Our aim is to make it quick and easy for you to access your favourite websites.
-  Your bookmarks sync between your devices so you can access them on the go.
-
-  Simple Bookmarking
-  Speedy Searching
-  Easy Sharing
-
-  Bookmark in one click
-
-  Organize your bookmarks however you like. Our simple drag-and-drop interface
-  gives you complete control over how you manage your favourite sites.
-
-  More Info
-
-  Intelligent search
-
-  Our powerful search feature will help you find saved sites in no time at all.
-  No need to trawl through all of your bookmarks.
-
-  More Info
-
-  Share your bookmarks
-
-  Easily share your bookmarks and collections with others. Create a shareable
-  link that you can send at the click of a button.
-
-  More Info
 
   Download the extension
 
