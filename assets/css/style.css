@@ -11903,6 +11903,9 @@ nav {
   text-transform: none;
   color: gray;
 }
+.features .nav-tabs {
+  justify-content: center;
+}
 .features .nav-tabs .nav-link.active,
 .features .nav-tabs .nav-item.show .nav-link {
   border: none;
@@ -11915,6 +11918,13 @@ nav {
 .features .nav-tabs .nav-link:focus {
   color: #fa5757;
   border: none;
+}
+.features .tab-content {
+  text-align: left;
+  max-width: 1234px;
+}
+.features .tab-content .tab__text {
+  padding-left: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */

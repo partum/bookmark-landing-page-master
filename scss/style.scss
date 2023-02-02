@@ -114,7 +114,7 @@ nav {
     }
 
     .nav-tabs {
-
+justify-content: center;
         .nav-link.active,
         .nav-item.show .nav-link {
             border: none;
@@ -131,5 +131,11 @@ nav {
             border: none;
         }
     }
-
+.tab-content{
+    text-align: left;
+    max-width: 1234px;
+    .tab__text{
+        padding-left: 200px;
+    }
+}
 }
