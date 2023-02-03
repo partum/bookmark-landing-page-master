@@ -11895,9 +11895,14 @@ nav {
   text-align: center;
   max-width: 1234px;
 }
-
-.features .text {
+.sections .text {
   max-width: 500px;
+}
+
+@media (max-width: 767px) {
+  .sections {
+    padding: 0 20px;
+  }
 }
 .features .nav-link {
   text-transform: none;
@@ -11925,6 +11930,43 @@ nav {
 }
 .features .tab-content .tab__text {
   padding-left: 200px;
+}
+
+.card {
+  box-shadow: 0px 10px 15px #5368df1f;
+  border: none;
+}
+.card .card-body {
+  padding-bottom: 25px;
+}
+.card h3 {
+  font-size: 1.5rem;
+}
+.card hr {
+  border-top: 5px dotted;
+  margin: 2rem 0;
+}
+.card a {
+  width: 100%;
+}
+
+.card-img-top {
+  width: 40%;
+  margin: 20px auto;
+}
+
+.card2 {
+  margin-top: 40px;
+}
+
+.card3 {
+  margin-top: 80px;
+}
+
+@media (max-width: 767px) {
+  .card3 {
+    margin-top: 40px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
