@@ -198,4 +198,19 @@ nav {
 //form section
 .purple-box{
     background-color: $soft-blue;
+    .container{
+        padding: 70px 0;
+        max-width: 600px;
+        text-align: center;
+        p{
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            padding-bottom: 20px;
+        }
+        h2{
+            color: white;
+            padding-bottom: 20px;
+        }
+    }
 }
