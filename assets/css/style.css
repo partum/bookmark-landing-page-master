@@ -12004,5 +12004,30 @@ nav {
   color: white;
   padding-bottom: 20px;
 }
+.purple-box form {
+  display: flex;
+  justify-content: center;
+}
+.purple-box form input.btn {
+  margin-left: 20px;
+}
+.purple-box form input::placeholder {
+  color: gray;
+}
+.purple-box form .form-group,
+.purple-box form .form-control {
+  width: 100%;
+}
+
+.navbar-dark {
+  background-color: #252b46;
+}
+.navbar-dark .nav-link {
+  color: white;
+  font-size: 14px;
+}
+.navbar-dark .logos img {
+  padding-left: 15px;
+}
 
 /*# sourceMappingURL=style.css.map */
