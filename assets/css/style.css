@@ -11946,6 +11946,17 @@ nav {
   padding-left: 200px;
 }
 
+@media (max-width: 767px) {
+  .tab-content .tab-pane div {
+    flex-direction: column;
+  }
+  .tab-content .tab-pane div img {
+    width: 100%;
+  }
+  .tab-content .tab-pane div .tab__text {
+    padding-left: 0;
+  }
+}
 .card {
   box-shadow: 0px 10px 15px #5368df1f;
   border: none;
